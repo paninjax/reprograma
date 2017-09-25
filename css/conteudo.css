@@ -1,0 +1,129 @@
+
+body{
+    font-family: 'Yantramanav', sans-serif;
+}
+/* Titulo h2 */
+#titulo{
+    color: #6666ff;
+    font-weight: bold;
+}
+
+/* Header */
+
+header {
+
+    background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+    background-color: rgba(255, 204, 0, 0.5);    
+    background-attachment: fixed; /* Deixar fixo a imagem no header */
+    padding-top: 15px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    
+}
+nav {
+    background-image: url("../image/if_Cat_130236.png");
+    background-repeat: no-repeat;
+    background-color:  #ffb84d;
+    padding: auto;
+    position: fixed; /* RESPONDE AO TAMANHO DA TELA*/
+    width: 100%;
+    top: 0;
+    /*bottom: 0;*/ 
+
+}
+
+nav ul li{
+    display: inline;
+}
+/*mudando a cor do menu*/
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav ul li a:hover{
+    color: #804d00;
+}
+
+/* Tabela */
+.linhaAzul{
+    color: #8c1aff;
+}
+
+table {
+   margin: 0 auto;
+
+}
+
+table, th, td{
+    background-color: #fff5e6;
+    border: 1px dashed 	  #a6a6a6;
+    padding: 20px;
+    
+
+}
+
+table td a{
+    color: #ffbb33;
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+
+table td a:hover{
+    color: 	 #b32d00;
+}
+
+/* Resumo/Suporte - caixa */
+section {
+    background-color:  #ffffe6;
+    color: 	#b3b300;
+    /*padding: 10px  20px;*/
+    max-width: 100%; /*largura */
+    max-height: 100%; /*altura */
+    border-radius: 5px;
+    border-width: 10%;
+    box-sizing: border-box; /* box-sizing: border-box; fica tudo definido com o tamanho da borda, para as confi de padding e border naão atrapalhem */
+    margin-bottom: 40px;
+}
+
+.resumo img{
+    border-radius: 50%;
+    max-width: 35%;
+    max-height: 35%;
+}
+
+h3{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffb84d;
+    color: #fff5e6;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+
+footer a{
+    color: #6666ff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #804d00;
+}
+
+.heart{
+    color: #b32d00;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}

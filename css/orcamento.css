@@ -1,0 +1,119 @@
+
+/*body{
+    font-family: 'Yantramanav', sans-serif;
+}
+/* Titulo h2 */
+#titulo{
+    color:  #55552b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#titulo:hover{
+    color: #804d00;
+    
+}
+/* Header */
+
+header {
+
+    background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+    background-color: rgba(255, 204, 0, 0.5);    
+    background-attachment: fixed; /* Deixar fixo a imagem no header */
+     
+}
+
+header {
+    padding-top: 15px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+nav {
+    background-color:  #ffb84d;
+    padding: 1px 0;
+}
+
+nav ul li{
+    display: inline;
+}
+/*mudando a cor do menu*/
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+nav ul li a:hover{
+    color: #804d00;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #ffb84d;
+    color: #fff5e6;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+/*Alterado footer*/
+footer a{
+    color:  #804d00;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #333366;
+   
+}
+
+
+.heart{
+    color: #b32d00;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+table {
+   margin: 0 auto;
+
+}
+
+
+.box{
+    background-color: #fff5e6;
+    border: #b3b300 1px dashed;
+      
+}
+
+label{
+    display: inliblock;
+    width: 200px;
+}
+
+label.box-color{
+    border-color: #b3b300 1px dashed;
+    background-color:   #ffe0b3;
+ }
+
+
+a {
+    background-color:  #e68a00;
+    width: 100px;
+    padding:20px;
+    display: block;
+}
+
+p {
+    background-color: #e68a00;
+    height: 10px;
+    display: inline;
+}
+ /*/
+input {
+    width: 200px;
+}*/

@@ -1,0 +1,66 @@
+
+.box {
+    border: 1px solid;
+    margin: 2px;
+}
+.display-box{
+    width: 150px;
+    height: 100px;
+}
+.display-box:first-child{
+    background-color: lightcoral;   
+
+}
+
+.display-box:nth-child(2){
+    background-color: yellowgreen;
+}
+
+.display-box:last-child{
+    background-color: green;   
+
+}
+
+.display-box:nth-child(3){
+    background-color: deeppink;
+}
+.display-box:nth-child(4){
+    background-color: darkslateblue;
+}
+
+.box-um > div{  /* ">" chama filhos - as div filhas de box serão:  */ 
+    display: inline-block;
+    color: papayawhip;
+
+}
+
+.box-dois > div{  /* ">" chama filhos - as div filhas de box serão:  */ 
+    display: block;
+    color: papayawhip;
+
+}
+
+.box-tres > div{
+    display: inline;
+    color: papayawhip;
+
+}
+
+.box-quatro > div{
+    display: none;
+}
+
+.box-cinco {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    color: papayawhip;
+    flex-wrap: wrap;
+}
+
+.box-seis {
+    display: inline-flex;
+    color: papayawhip;
+}
