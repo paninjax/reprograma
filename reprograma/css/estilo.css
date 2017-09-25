@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box; /* content-box (defaut) soma altua+ larg | border-box (desconta padding da altura)*/
+    margin:0;
+    padding: 0;
+}
+
+.menu-topo{
+  background-color: rosybrown;
+  height:50px; /* porcentagem o nav ainda não reconhece. é relativo a algo*/
+  width: 100%;
+  position: fixed; /*static é o padrão, fixed passa a ler a tela*/
+  left: 0;     /*As propriedade do position: bottom: left: right: */
+  top: 0;
+
+}
+
+.texto-principal{
+  padding-top: 50px;
+}
+
+.special{
+  background-color: lightsteelblue;
+  /*height:150px; /* porcentagem o nav ainda não reconhece. é relativo a algo*/
+  width: 50%;
+  padding: 50px;
+}
+
+.box{
+  background-color: rebeccapurple;
+}
+
+.special-children{
+  background-color: sandybrown;
+  height:50px; /* porcentagem o nav ainda não reconhece. é relativo a algo*/
+  width: 30%;
+  margin-top: 50px;
+ /* margin-left: 30px; */
+}
